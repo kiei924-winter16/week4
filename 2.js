@@ -5,9 +5,11 @@ $(function() {
   var thisClass = {
     name: "KIEI-924",
     description: "The best class ever",
-    instructor: { name: "Brian", status: "Awesome" }
+    instructor: { name: "Brian", status: "Awesome" },
+    rules: function() { window.alert("Yeah it does!!!") },
+    sucks: function() { window.alert("Yeah it really does!!!") }
   }
 
-  thisClass.rules();
+  thisClass.rules;
 
 })

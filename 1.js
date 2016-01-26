@@ -2,13 +2,10 @@
 $(function() {
 
   // Write a function that yells (e.g. TACOS!!!!!)
-  var yell = function(string) {
-    // change this so it works
-    // .toUpperCase() is a built-in function
-    return "sad trombone";
+  var yell = function(food) {
+    return food.toUpperCase() + "!!!!!!!";
   }
 
-  var theMostAwesomeFood = "tacos";
-
-  window.alert(yell(theMostAwesomeFood));
+  var yelledString = yell("bacon");
+  window.alert(yelledString);
 })
